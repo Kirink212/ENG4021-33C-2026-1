@@ -21,4 +21,5 @@ from ecommerceapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('movies/create', views.create_movie),
 ]
