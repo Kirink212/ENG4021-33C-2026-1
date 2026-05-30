@@ -21,6 +21,8 @@
                     <h5>{{ movie.title }}</h5>
                     <h6>{{ movie.director.name }}</h6>
                     <p>{{ movie.description }}</p>
+                    <a href="/movies/update/{{ movie.id }}">Editar Filme</a>
+                    <a href="/movies/delete/{{ movie.id }}">Remover Filme</a>
                 </div>
             </div>
         {% endfor %}
